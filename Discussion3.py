@@ -4,7 +4,9 @@ class Rectangle():
     # Create the constructor "__init__" method
 
     # YOUR CODE HERE
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
@@ -16,7 +18,6 @@ class Rectangle():
     # Create the "area_calculator" method
 
     # YOUR CODE HERE
-
 
 
     # Create the "__eq__" method
